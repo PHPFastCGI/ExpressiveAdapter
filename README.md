@@ -35,7 +35,7 @@ composer require "phpfastcgi/expressive-adapter:^0.1"
 require_once dirname(__FILE__) . '/../vendor/autoload.php';
 
 use PHPFastCGI\FastCGIDaemon\ApplicationFactory;
-use PHPFastCGI\Adapter\Expressive\AppWrapper;
+use PHPFastCGI\Adapter\Expressive\ApplicationWrapper;
 use Zend\Expressive\AppFactory;
 
 // Create your Expressive app
@@ -46,7 +46,7 @@ $app->get('/', function ($request, $response, $next) {
 });
 
 // Create the kernel for the FastCGIDaemon library (from the Expressive app)
-$kernel = new AppWrapper($app);
+$kernel = new ApplicationWrapper($app);
 
 // Create the symfony console application
 $consoleApplication = (new ApplicationFactory)->createApplication($kernel);
