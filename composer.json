@@ -15,6 +15,10 @@
         "phpfastcgi/fastcgi-daemon": "^0.7"
     },
     "require-dev": {
+        "zendframework/zend-servicemanager": "^2.5",
+        "zendframework/zend-expressive-fastroute": "^1.0"
+    }
+    "require-dev": {
         "satooshi/php-coveralls": "dev-master"
     },
     "autoload": {
