@@ -3,7 +3,7 @@
 [![Latest Stable Version](https://poser.pugx.org/phpfastcgi/expressive-adapter/v/stable)](https://packagist.org/packages/phpfastcgi/expressive-adapter)
 [![Build Status](https://travis-ci.org/PHPFastCGI/ExpressiveAdapter.svg?branch=master)](https://travis-ci.org/PHPFastCGI/ExpressiveAdapter)
 [![Coverage Status](https://coveralls.io/repos/PHPFastCGI/ExpressiveAdapter/badge.svg?branch=master&service=github)](https://coveralls.io/github/PHPFastCGI/ExpressiveAdapter?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/PHPFastCGI/ExpressiveAdapter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/PHPFastCGI/ExpressiveAdapter/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/PHPFastCGI/ExpressiveAdapter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/PHPFastCGI/ExpressiveAdapter/?branch=master&no-cache=1)
 [![Total Downloads](https://poser.pugx.org/phpfastcgi/expressive-adapter/downloads)](https://packagist.org/packages/phpfastcgi/expressive-adapter)
 
 A PHP package which allows Zend Expressive applications to reduce overheads by exposing their Request-Response structure to a FastCGI daemon.
