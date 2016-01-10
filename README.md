@@ -1,7 +1,7 @@
 # PHPFastCGI Zend Expressive Adapter
 
 [![Latest Stable Version](https://poser.pugx.org/phpfastcgi/expressive-adapter/v/stable)](https://packagist.org/packages/phpfastcgi/expressive-adapter)
-[![Build Status](https://travis-ci.org/PHPFastCGI/ExpressiveAdapter.svg?branch=v0.5.0)](https://travis-ci.org/PHPFastCGI/ExpressiveAdapter)
+[![Build Status](https://travis-ci.org/PHPFastCGI/ExpressiveAdapter.svg?branch=master)](https://travis-ci.org/PHPFastCGI/ExpressiveAdapter)
 [![Coverage Status](https://coveralls.io/repos/PHPFastCGI/ExpressiveAdapter/badge.svg?branch=master&service=github)](https://coveralls.io/github/PHPFastCGI/ExpressiveAdapter?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/PHPFastCGI/ExpressiveAdapter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/PHPFastCGI/ExpressiveAdapter/?branch=master)
 [![Total Downloads](https://poser.pugx.org/phpfastcgi/expressive-adapter/downloads)](https://packagist.org/packages/phpfastcgi/expressive-adapter)
