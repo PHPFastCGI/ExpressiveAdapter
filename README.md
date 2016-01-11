@@ -74,4 +74,12 @@ If you are using a web server such as nginx, you will need to use a process mana
 
 The [AstroSplash](http://astrosplash.com/) website currently runs using this adapter. If you are looking for an example integration, you may find the [source code repository](https://github.com/AndrewCarterUK/AstroSplash) helpful.
 
-The two important files are [fastcgi.php](https://github.com/AndrewCarterUK/AstroSplash/blob/master/fastcgi.php) and [supervisord.conf](https://github.com/AndrewCarterUK/AstroSplash/blob/master/supervisord.conf). The PHP script creates a FastCGI application using the Zend Expressive application object. The [supervisord](http://supervisord.org/) configuration file provides instructions for running these FastCGI application instances.
+The two important files:
+
+- **[fastcgi.php](https://github.com/AndrewCarterUK/AstroSplash/blob/master/fastcgi.php)**
+
+This PHP script creates and runs a FastCGI application using the Zend Expressive application object.
+
+- **[supervisord.conf](https://github.com/AndrewCarterUK/AstroSplash/blob/master/supervisord.conf)**
+
+As NGINX is used, [supervisord](http://supervisord.org/) was chosen to manage instances of the FastCGI application. This would not be necessary using Apache as it has a process manager built into the FastCGI module. This configuration file provides instructions for supervising the FastCGI application instances.
