@@ -69,3 +69,9 @@ FastCgiServer /path/to/web/root/script.fcgi
 ```
 
 If you are using a web server such as nginx, you will need to use a process manager to monitor and run your application.
+
+## AstroSplash: An Example
+
+The [AstroSplash](http://astrosplash.com/) website currently runs using this adapter. If you are looking for an example integration, you may find the [source code repository](https://github.com/AndrewCarterUK/AstroSplash) helpful.
+
+The two important files are [fastcgi.php](https://github.com/AndrewCarterUK/AstroSplash/blob/master/fastcgi.php) and [supervisord.conf](https://github.com/AndrewCarterUK/AstroSplash/blob/master/supervisord.conf). The PHP script creates a FastCGI application using the Zend Expressive application object. The [supervisord](http://supervisord.org/) configuration file provides instructions for running these FastCGI application instances.
