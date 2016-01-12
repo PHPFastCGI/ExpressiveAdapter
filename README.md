@@ -89,3 +89,28 @@ This PHP script creates and runs a FastCGI application using the Zend Expressive
 - **[supervisord.conf](https://github.com/AndrewCarterUK/AstroSplash/blob/master/supervisord.conf)**
 
 As NGINX is used, [supervisord](http://supervisord.org/) was chosen to manage instances of the FastCGI application. This would not be necessary using Apache as it has a process manager built into the FastCGI module. This configuration file provides instructions for supervising the FastCGI application instances.
+
+### NGINX Configuration
+
+Below is an example of the changes that were made to the NGINX configuration file for AstroSplash:
+
+```conf
+upstream workers {
+    server localhost:5000;
+    server localhost:5001;
+    server localhost:5002;
+    server localhost:5003;
+}
+
+server {
+    # ... 
+
+    location # ... {
+        include         /etc/nginx/fastcgi_params;
+        fastcgi_pass    workers;
+        # ...
+    }
+
+    # ...
+}
+```
