@@ -6,7 +6,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/PHPFastCGI/ExpressiveAdapter/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/PHPFastCGI/ExpressiveAdapter/?branch=master&no-cache=1)
 [![Total Downloads](https://poser.pugx.org/phpfastcgi/expressive-adapter/downloads)](https://packagist.org/packages/phpfastcgi/expressive-adapter)
 
-A PHP package which allows Zend Expressive applications to reduce overheads by exposing their Request-Response structure to a FastCGI daemon.
+A PHP package that allows Zend Expressive applications to reduce overheads by exposing their Request-Response structure to a FastCGI daemon.
 
 Visit the [project website](http://phpfastcgi.github.io/).
 
